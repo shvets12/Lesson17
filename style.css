@@ -1,11 +1,8 @@
-a{
-    text-decoration: none;
-}
 .container-fluid {
     max-width: 1400px;
 }
 .card {
-    background: #fff;
+    background: white;
     box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
     border: 0;
     border-radius: 1rem;
@@ -31,9 +28,6 @@ a{
     object-fit: contain;
     padding: 30px;
 }
-.card h2 {
-    font-size: 1rem;
-}
 .card:hover {
     transform: scale(1.02);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
@@ -47,36 +41,13 @@ a{
     font-weight: 600;
     border-radius: 3px;
     text-transform: uppercase;
-    background-color: rgb(105, 0, 224);
+    background-color: rgb(85, 1, 180);
 }
-.top-right {
-    position: absolute;
-    top: 24px;
-    left: 24px;
-
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    font-size: 1rem;
-    font-weight: 900;
-    background: #8bc34a;
-    line-height: 90px;
-    text-align: center;
-    color: white;
+.label-top a{
+    text-decoration: none;
 }
-.top-right span {
-    display: inline-block;
-    vertical-align: middle;
-}
-.aff-link {
-    font-weight: 500;
-}
-.over-bg {
-    background: rgba(53, 53, 53, 0.85);
-    box-shadow: 0 8px 32px 0 rgba(119, 135, 31, 0.37);
-    backdrop-filter: blur(0.0px);
-    -webkit-backdrop-filter: blur(0.0px);
-    border-radius: 10px;
+.aff-link{
+    text-decoration: overline;
 }
 .bold-btn {
     font-size: 1rem;
@@ -87,18 +58,8 @@ a{
 .box .btn {
     font-size: 1.5rem;
 }
-@media (max-width: 1025px) {
-    .btn {
-        padding: 5px 40px 5px 40px;
-    }
-}
-@media (max-width: 250px) {
-    .btn {
-        padding: 5px 30px 5px 30px;
-    }
-}
 .btn-warning {
-    fill: #ffffff;
+    fill: white;
     text-decoration: none;
     outline: 0;
     border-radius: 100px;
@@ -118,33 +79,13 @@ a{
     background: var(--btnbghover);
     color: var(--btnfontcolorhover);
 }
-.bg-success {
+.bg-warning {
     font-size: 1rem;
-    background-color: var(--btnbg)!important;
     color: var(--btnfontcolor)!important;
 }
-.bg-danger {
-    font-size: 1rem;
-}
-.price-hp {
-    font-size: 1rem;
-    font-weight: 600;
-    color: darkgray;
-}
-
-.amz-hp {
-    font-size: .7rem;
-    font-weight: 600;
-    color: darkgray;
-}
-
 .fa-question-circle:before {
     color: darkgray;
 }
-
 .fa-heart:before {
     color:crimson;
-}
-.fa-chevron-circle-right:before {
-    color: darkgray;
 }
